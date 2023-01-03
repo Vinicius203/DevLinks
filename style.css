@@ -32,7 +32,7 @@ body * {
 #profile {
   text-align: center;
   padding: 24px;
-} 
+}
 
 #profile img {
   width: 112px;
@@ -51,6 +51,8 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 16px;
+
+  padding: 24px 0;
 }
 
 ul li a {
@@ -76,4 +78,19 @@ ul li a {
 ul li a:hover {
   background: rgba(255, 255, 255, 0.05);
   border: 1.5px solid white;
+}
+
+/* social links */
+#social_links {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+
+  padding: 24px 0;
+
+  font-size: 40px;
+}
+
+#social_links:hover {
+  
 }
